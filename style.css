@@ -1,0 +1,148 @@
+.ico {
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+    background: rgb(255, 62, 121);
+    padding: 12px;
+  } 
+  img{
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+  
+
+
+
+
+/* ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  } 
+    */
+  
+  
+
+    .burger-menu--aside {
+        max-width: 320px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        
+        box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.2), 
+        -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+    
+    }
+/* header */
+
+.link:hover,
+.ico:hover {
+  transition: 0.35s;
+  transform: scale(0.95);
+  filter: contrast(1.25);
+}
+.link:not(:hover),
+.ico:not(:hover) {
+  transition: 0.35s;
+}
+
+
+.header__container{
+    display: flex;
+    padding: 19px 24px 0px 24px;
+
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header-col{
+    display: flex;
+    align-items: center;
+
+}
+.burger-menu__logo {
+    margin: 0 0 0 18px;
+    width: 97px;
+height: 51px;
+
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #7E7E82;
+    display: inline-block;
+    font-size: 1.14rem;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    
+}
+
+.link_burger-menu{
+    color: rgba(27, 28, 33, 1);
+
+}
+/* menu__nav*/
+.burger-menu__nav-list{
+    display: flex;
+flex-direction: column;
+gap: 32px;
+padding: 50px 24px 0 24px;
+   
+}
+
+.nav-list__item--curent::before{
+    content: '';
+    width: 4px;
+    height: 32px;
+    top: 116px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    
+    background: rgba(65, 246, 215, 1);
+
+}
+
+
+
+/* footer */
+.burger-menu__footer{
+    margin: 268px 0 0 0 ;
+    padding: 0 24px 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+    
+    
+}
+
+.links-list{
+    display: flex;
+    gap: 16px;
+    
+}
+.links-list__link{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.link_burger-menu-tel{
+    
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: -0.6px;
+
+}
+
+.language--flex{
+    display: flex;
+    gap: 7px;
+}

@@ -1,0 +1,38 @@
+/*fonts*/
+@font-face {
+  font-family: "TT Lakes";
+  src: local
+    local("TTLakes-Regular"),
+    url("../assets/fonts/TTLakes-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: 
+    local("TTLakes-Medium"),
+    url("../assets/fonts/TTLakes-Medium.woff") format("woff");
+font-weight: 500;
+}
+@font-face {
+  font-family: "TT Lakes";
+  src: 
+    local("TTLakes-Bold"),
+    url("/assets/fonts/TTLakes-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+a{
+  
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.2px;
+
+}
+
+
+/*fonts*/
+
+
+
